@@ -19,12 +19,12 @@
             // Note: to prevent problems while tesseract loads scripts, provide the absolute path to the file from your domain
             window.Tesseract = Tesseract.create({
                 // Path to worker
-                workerPath: 'https://sujiv.github.io/tesseract//worker.js',
+                workerPath: 'https://sujiv.github.io/tesseract/worker.js',
                 // Path of folder where the language trained data is located
                 // note the "/" at the end, this string will be concatenated with the selected language
-                langPath: 'https://sujiv.github.io/tesseract//langs-folder/',
+                langPath: 'https://sujiv.github.io/tesseract/langs-folder/',
                 // Path to index script of the tesseract core ! https://github.com/naptha/tesseract.js-core
-                corePath: 'https://sujiv.github.io/tesseract//index.js',
+                corePath: 'https://sujiv.github.io/tesseract/index.js',
             });
 
             // 2. Write some logic to initialize the text recognition
